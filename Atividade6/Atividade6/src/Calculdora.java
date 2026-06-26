@@ -65,7 +65,7 @@ public class Calculdora extends JFrame {
 				
 			}
 		});
-        btnSOMA.setBounds(204, 54, 89, 23);
+        btnSOMA.setBounds(186, 54, 89, 23);
         contentPane.add(btnSOMA);
         
         
@@ -79,7 +79,7 @@ public class Calculdora extends JFrame {
 				lblResposta.setText(res);
 			}
 		});
-        btnSUB.setBounds(204, 102, 89, 23);
+        btnSUB.setBounds(310, 55, 124, 23);
         contentPane.add(btnSUB);
         
         JButton btnDIVI = new JButton("DIVISÃO");
@@ -93,7 +93,7 @@ public class Calculdora extends JFrame {
 				lblResposta.setText(res);
 			}
 		});
-        btnDIVI.setBounds(320, 54, 89, 23);
+        btnDIVI.setBounds(186, 102, 89, 23);
         contentPane.add(btnDIVI);
         
         JButton btnMULT = new JButton("MULTIPLICAÇÃO");
@@ -107,12 +107,20 @@ public class Calculdora extends JFrame {
 				
 			}
 		});
-        btnMULT.setBounds(320, 102, 89, 23);
+        btnMULT.setBounds(310, 102, 124, 23);
         contentPane.add(btnMULT);
         
         JLabel lblNewLabel = new JLabel("=");
         lblNewLabel.setBounds(44, 162, 105, 14);
         contentPane.add(lblNewLabel);
+        
+        JLabel lblNewLabel_1 = new JLabel("Número1:");
+        lblNewLabel_1.setBounds(44, 37, 105, 14);
+        contentPane.add(lblNewLabel_1);
+        
+        JLabel lblNewLabel_2 = new JLabel("Número2:");
+        lblNewLabel_2.setBounds(44, 73, 86, 14);
+        contentPane.add(lblNewLabel_2);
         
     
     }
